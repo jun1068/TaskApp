@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DA7D240428FBE2280053055C /* Chat_log.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DA7D240328FBE2280053055C /* Chat_log.storyboard */; };
 		DAFFF9F128FBAED3007CFAB7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAFFF9F028FBAED3007CFAB7 /* AppDelegate.swift */; };
 		DAFFF9F328FBAED3007CFAB7 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAFFF9F228FBAED3007CFAB7 /* SceneDelegate.swift */; };
 		DAFFF9F528FBAED3007CFAB7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAFFF9F428FBAED3007CFAB7 /* ViewController.swift */; };
@@ -16,6 +17,11 @@
 		DAFFFA0828FBAED8007CFAB7 /* TaskAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAFFFA0728FBAED8007CFAB7 /* TaskAppTests.swift */; };
 		DAFFFA1228FBAED8007CFAB7 /* TaskAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAFFFA1128FBAED8007CFAB7 /* TaskAppUITests.swift */; };
 		DAFFFA1428FBAED8007CFAB7 /* TaskAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAFFFA1328FBAED8007CFAB7 /* TaskAppUITestsLaunchTests.swift */; };
+		DAFFFA2528FBD2D3007CFAB7 /* ChatList.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DAFFFA2428FBD2D3007CFAB7 /* ChatList.storyboard */; };
+		DAFFFA2B28FBD4CD007CFAB7 /* ChatListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAFFFA2A28FBD4CD007CFAB7 /* ChatListViewController.swift */; };
+		DAFFFA2E28FBD788007CFAB7 /* ChatTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAFFFA2C28FBD788007CFAB7 /* ChatTableViewCell.swift */; };
+		DAFFFA2F28FBD788007CFAB7 /* ChatTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = DAFFFA2D28FBD788007CFAB7 /* ChatTableViewCell.xib */; };
+		DAFFFA3128FBD8A6007CFAB7 /* Chat_logViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAFFFA3028FBD8A6007CFAB7 /* Chat_logViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +42,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		DA7D240328FBE2280053055C /* Chat_log.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Chat_log.storyboard; sourceTree = "<group>"; };
 		DAFFF9ED28FBAED3007CFAB7 /* TaskApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TaskApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DAFFF9F028FBAED3007CFAB7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DAFFF9F228FBAED3007CFAB7 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -49,6 +56,11 @@
 		DAFFFA0D28FBAED8007CFAB7 /* TaskAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TaskAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DAFFFA1128FBAED8007CFAB7 /* TaskAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskAppUITests.swift; sourceTree = "<group>"; };
 		DAFFFA1328FBAED8007CFAB7 /* TaskAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		DAFFFA2428FBD2D3007CFAB7 /* ChatList.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = ChatList.storyboard; sourceTree = "<group>"; };
+		DAFFFA2A28FBD4CD007CFAB7 /* ChatListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatListViewController.swift; sourceTree = "<group>"; };
+		DAFFFA2C28FBD788007CFAB7 /* ChatTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatTableViewCell.swift; sourceTree = "<group>"; };
+		DAFFFA2D28FBD788007CFAB7 /* ChatTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ChatTableViewCell.xib; sourceTree = "<group>"; };
+		DAFFFA3028FBD8A6007CFAB7 /* Chat_logViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Chat_logViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +91,9 @@
 		DAFFF9E428FBAED3007CFAB7 = {
 			isa = PBXGroup;
 			children = (
+				DAFFFA3028FBD8A6007CFAB7 /* Chat_logViewController.swift */,
+				DAFFFA2C28FBD788007CFAB7 /* ChatTableViewCell.swift */,
+				DAFFFA2D28FBD788007CFAB7 /* ChatTableViewCell.xib */,
 				DAFFF9EF28FBAED3007CFAB7 /* TaskApp */,
 				DAFFFA0628FBAED8007CFAB7 /* TaskAppTests */,
 				DAFFFA1028FBAED8007CFAB7 /* TaskAppUITests */,
@@ -99,8 +114,11 @@
 		DAFFF9EF28FBAED3007CFAB7 /* TaskApp */ = {
 			isa = PBXGroup;
 			children = (
+				DA7D240328FBE2280053055C /* Chat_log.storyboard */,
 				DAFFF9F028FBAED3007CFAB7 /* AppDelegate.swift */,
 				DAFFF9F228FBAED3007CFAB7 /* SceneDelegate.swift */,
+				DAFFFA2A28FBD4CD007CFAB7 /* ChatListViewController.swift */,
+				DAFFFA2428FBD2D3007CFAB7 /* ChatList.storyboard */,
 				DAFFF9F428FBAED3007CFAB7 /* ViewController.swift */,
 				DAFFF9F628FBAED3007CFAB7 /* Main.storyboard */,
 				DAFFF9F928FBAED7007CFAB7 /* Assets.xcassets */,
@@ -215,6 +233,9 @@
 				Base,
 			);
 			mainGroup = DAFFF9E428FBAED3007CFAB7;
+			packageReferences = (
+				DA7D240228FBE0790053055C /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
 			productRefGroup = DAFFF9EE28FBAED3007CFAB7 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -232,7 +253,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				DAFFF9FD28FBAED7007CFAB7 /* LaunchScreen.storyboard in Resources */,
+				DA7D240428FBE2280053055C /* Chat_log.storyboard in Resources */,
 				DAFFF9FA28FBAED7007CFAB7 /* Assets.xcassets in Resources */,
+				DAFFFA2F28FBD788007CFAB7 /* ChatTableViewCell.xib in Resources */,
+				DAFFFA2528FBD2D3007CFAB7 /* ChatList.storyboard in Resources */,
 				DAFFF9F828FBAED3007CFAB7 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -260,7 +284,10 @@
 			files = (
 				DAFFF9F528FBAED3007CFAB7 /* ViewController.swift in Sources */,
 				DAFFF9F128FBAED3007CFAB7 /* AppDelegate.swift in Sources */,
+				DAFFFA2E28FBD788007CFAB7 /* ChatTableViewCell.swift in Sources */,
 				DAFFF9F328FBAED3007CFAB7 /* SceneDelegate.swift in Sources */,
+				DAFFFA2B28FBD4CD007CFAB7 /* ChatListViewController.swift in Sources */,
+				DAFFFA3128FBD8A6007CFAB7 /* Chat_logViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -596,6 +623,17 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		DA7D240228FBE0790053055C /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 9.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
 	};
 	rootObject = DAFFF9E528FBAED3007CFAB7 /* Project object */;
 }
